@@ -6,21 +6,18 @@ public class Main {
         myCar.displayInfo();
 
         Car mycar2 = new Car("BMW", 200, 4);
-
-        System.out.println("BMW  " + mycar2);
         mycar2.displayInfo();
 
-        Car newCar = new Car("newCar", 220, 4, "Japanese");
+        //System.out.println("BMW  " + mycar2);
+
+
+        Car newCar = new Car("mercedes", 220, 4, "Germany");
         newCar.displayInfo2();
 
-        Motorcycle myMotorcycle = new Motorcycle("Honda", 200, "Sport");
+        Motorcycle myMotorcycle = new Motorcycle("honda", 245, "Electric", "indonesia");
+        newCar.displayInfo2();
 
-        System.out.println("Get the car name : " + myCar.getVehicleName());
 
-        System.out.println("----------------------");
-
-        // Polymorphism - calling displayInfo() of Motorcycle
-        myMotorcycle.displayInfo();
     }
 
 

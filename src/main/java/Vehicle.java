@@ -22,9 +22,7 @@ abstract class Vehicle {
     public abstract void displayInfo();
     public abstract void displayInfo2();
 
-    public void display() {
-        System.out.println("From Mother");
-    }
+
 }
 
 
